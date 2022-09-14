@@ -124,7 +124,8 @@ body {
 		&__img {
 			height: auto;
 			width: 50%;
-			background-image: url('../images/image-product-desktop.jpg');
+			background-image: linear-gradient(to right, $color-black-transparent, $color-black-transparent),
+				url('../images/image-product-desktop.jpg');
 			background-size: cover;
 			background-position: center;
 		}

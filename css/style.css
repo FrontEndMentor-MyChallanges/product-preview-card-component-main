@@ -114,7 +114,7 @@ body {
   .card__img {
     height: auto;
     width: 50%;
-    background-image: url("../images/image-product-desktop.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/image-product-desktop.jpg");
     background-size: cover;
     background-position: center;
   }
