@@ -106,7 +106,7 @@ body {
   background-color: hsl(158deg, 36%, 29%);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
   .card {
     flex-direction: row;
     max-width: 60rem;
