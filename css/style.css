@@ -110,6 +110,9 @@ body {
   }
   .card__img {
     width: 50%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/image-product-desktop.jpg");
+    background-size: cover;
+    background-position: center;
   }
   .card__img .img {
     height: 100%;
