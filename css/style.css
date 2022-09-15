@@ -36,12 +36,9 @@ body {
   border-radius: 1rem;
   overflow: hidden;
 }
-.card__img {
-  height: 24rem;
+.card__img .img {
   width: 100%;
-  background-image: url("../images/image-product-mobile.jpg");
-  background-size: cover;
-  background-position: center;
+  height: auto;
 }
 .card__body {
   display: flex;
@@ -112,11 +109,10 @@ body {
     max-width: 60rem;
   }
   .card__img {
-    height: auto;
     width: 50%;
-    background-image: url("../images/image-product-desktop.jpg");
-    background-size: cover;
-    background-position: center;
+  }
+  .card__img .img {
+    height: 100%;
   }
   .card__body {
     width: 50%;

@@ -38,14 +38,13 @@ body {
 	background-color: $color-background-white;
 	border-radius: 1rem;
 	overflow: hidden;
-	&__img {
-		height: 24rem;
-		width: 100%;
-		background-image: url('../images/image-product-mobile.jpg');
-		background-size: cover;
-		background-position: center;
-	}
 
+	&__img {
+		.img {
+			width: 100%;
+			height: auto;
+		}
+	}
 	&__body {
 		display: flex;
 		flex-direction: column;
@@ -122,11 +121,10 @@ body {
 		max-width: 60rem;
 
 		&__img {
-			height: auto;
 			width: 50%;
-			background-image: url('../images/image-product-desktop.jpg');
-			background-size: cover;
-			background-position: center;
+			.img {
+				height: 100%;
+			}
 		}
 
 		&__body {
